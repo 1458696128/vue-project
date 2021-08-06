@@ -2,11 +2,11 @@
   <div id="my" class="main">
     <Header title="我的"></Header>
     <div id="mycontent">
-      <div class="content-header">
+      <div class="content-header" @click="$router.push('/login')">
         <span class="iconfontstyle"><i class="iconfont icon-ren"></i></span>
         <h3>登录/注册</h3>
         <span class="iconfont-ipone"
-          ><i class="iconfont icon-icon-contract"></i
+          ><i class="iconfont icon-shouji"></i
         ></span>
         <span class="iconfont-text">暂无绑定手机号</span>
         <span class="iconfont-contract"
@@ -213,7 +213,7 @@ export default {};
 }
 
 .mine-for {
-  margin-top: 8px;
+  margin-top: 60px;
 
   .mine-foritem {
     width: 100%;
