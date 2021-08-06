@@ -66,11 +66,11 @@ export default {
 }
 
 #buottom-content {
-  position: relative;
-  top: 180px;
-  left: 0px;
-  width: 100%;
-  height: 100%;
+  // position: relative;
+  // top: 240px;
+  // left: 0px;
+   width: 100%;
+   height: 100%;
 
   .merchant {
     height: 100%;
