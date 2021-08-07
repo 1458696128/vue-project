@@ -25,6 +25,12 @@
     </span>
     <span>我的</span>
   </a>
+  <a href="javascript:;" class="guide_item" :class="{on: $route.path==='/map'}" @click="goTo('/map')">
+    <span class="item_icon">
+      <i class="iconfont icon-tubiao"></i>
+    </span>
+    <span>地图</span>
+  </a>
 </footer>
 
 </template>

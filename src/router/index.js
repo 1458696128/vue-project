@@ -6,6 +6,7 @@ import Order from '../pages/Order/Order.vue'
 import Profile from '../pages/Profile/Profile.vue'
 import Search from '../pages/Search/Search.vue'
 import Login from '../pages/Login/Login.vue'
+import Map from '../pages/map/map.vue'
 Vue.use(VueRouter)
 export default new VueRouter({
         routes:[
@@ -41,10 +42,18 @@ export default new VueRouter({
                 path:'/login',
                 component : Login
             },
+            {
+                path:'/map',
+                component : Map,
+                meta :{
+                    isfootershow:true
+               }
+            },
            {
                path:'/',
                redirect:'/msite'
            }
+
         ]
     
 })
